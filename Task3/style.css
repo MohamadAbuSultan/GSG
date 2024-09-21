@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+#about {
+    padding-top: 5px;
+    margin: 40px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+}
+
+.projects {
+    height: 500px;
+}
+
+.skills button,
+.projects div {
+    background-color: #e4e4e4;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.skills button {
+    display: inline-block;
+}
+
+.projects div button {
+    margin-top: 0;
+}
+
+.projects div {
+    width: 30%;
+    text-align: center;
+}
+
+#Task_Management {
+    position: relative;
+    top: -800px;
+    height: 218px;
+    opacity: 0.5;
+}
+
+#Blog_Platform {
+    width: 100%;
+    position: relative;
+    top: -240px;
+    height: 181px;
+}
+
+#contact {
+    background-color: #e4e4e4;
+    padding: 10px;
+    margin: 35px;
+    border-radius: 8px;
+}
+
+form input,
+form textarea {
+    width: 99%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input:hover {
+    background-color: #b49292;
+    font-size: 40px;
+}
+
+form input:focus {
+    background-color: #ffacac;
+    font-size: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+form button:active {
+    background-color: rgb(250, 223, 223);
+}
+
+#skills {
+    background-color: rgb(75, 75, 255);
+}
+
+.skills {
+    background-color: white;
+}
+
+.skills button {
+    background-color: green;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.skills button {
+    color: white;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+button:hover {
+    animation: bounce 2s infinite;
+}
