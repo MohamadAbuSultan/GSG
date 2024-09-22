@@ -61,13 +61,18 @@ img {
 }
 
 header,
-#Portfolio_Website,
-#Task_Management,
-#Blog_Platform,
-#E-Commerce_Site,
 footer {
     background-color: #333;
     color: #fff;
+}
+
+#Portfolio_Website,
+#Task_Management,
+#Blog_Platform,
+#E-Commerce_Site {
+    background-color: #7a92fe;
+    text-align: left;
+    color: whitesmoke;
 }
 
 .skills button,
