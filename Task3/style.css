@@ -124,16 +124,11 @@ form textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
-form input:hover {
-    background-color: #b49292;
-    font-size: 40px;
-}
-
+/* 
 form input:focus {
-    background-color: #ffacac;
-    font-size: 40px;
-}
+    background-color: hsl(0, 0%, 37%);
+    color: whitesmoke;
+} */
 
 button {
     padding: 10px 20px;
