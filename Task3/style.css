@@ -7,8 +7,6 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
     padding: 20px 0;
     text-align: center;
     position: sticky;
@@ -62,7 +60,15 @@ img {
     height: 500px;
 }
 
-
+header,
+#Portfolio_Website,
+#Task_Management,
+#Blog_Platform,
+#E-Commerce_Site,
+footer {
+    background-color: #333;
+    color: #fff;
+}
 
 .skills button,
 .projects div {
@@ -142,9 +148,8 @@ form button:active {
 
 #skills {
     background-color: rgb(75, 75, 255);
-    background-image: url(
-        'https://th.bing.com/th/id/R.520853d30a06d47f5e4c76ff1742d7c8?rik=7SuHPHswahpn9A&pid=ImgRaw&r=0%27'
-    );
+    background-image: url('https://th.bing.com/th/id/R.520853d30a06d47f5e4c76ff1742d7c8?rik=7SuHPHswahpn9A&pid=ImgRaw&r=0%27'
+        );
     background-position: center;
     margin: 0;
     padding: 0;
@@ -166,13 +171,9 @@ form button:active {
 }
 
 .skills button {
-    background-color: green;
+    background-color: #800080;
     padding: 10px;
     border-radius: 4px;
-}
-
-.skills button {
-    color: white;
 }
 
 @keyframes bounce {
@@ -200,7 +201,6 @@ button:hover {
 
 
 footer {
-    background-color: #ff0000;
     text-align: center;
     padding: 10px 0;
     border-radius: 10px;
@@ -211,10 +211,6 @@ footer {
     transform: translateX(-50%);
 }
 
-footer p {
-    color: #333;
-}
-
 #arrow {
     color: blue;
     font-size: 41px;
@@ -223,6 +219,6 @@ footer p {
     bottom: 20px;
 }
 
-#skills>h2{
+#skills>h2 {
     color: white;
 }
