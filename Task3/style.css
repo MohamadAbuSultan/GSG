@@ -190,16 +190,16 @@ footer {
     bottom: -100px;
     left: 50%;
     transform: translateX(-50%);
-  }
+}
 
-  footer p {
+footer p {
     color: #333;
-  }
+}
 
-  #arrow{
+#arrow {
     color: blue;
     font-size: 41px;
     position: fixed;
     right: 20px;
     bottom: 20px;
-  }
+}
