@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    position: relative;
 }
 
 header {
@@ -10,6 +11,9 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 header h1 {
@@ -83,7 +87,6 @@ img {
     position: relative;
     top: -800px;
     height: 218px;
-    opacity: 0.5;
 }
 
 #Blog_Platform {
@@ -175,3 +178,28 @@ form button:active {
 button:hover {
     animation: bounce 2s infinite;
 }
+
+
+footer {
+    background-color: #ff0000;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    width: 95%;
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  footer p {
+    color: #333;
+  }
+
+  #arrow{
+    color: blue;
+    font-size: 41px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
