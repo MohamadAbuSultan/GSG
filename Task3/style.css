@@ -160,12 +160,13 @@ form button:active {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    opacity: 0.8;
 }
 
 .skills {
     background-color: white;
-    opacity: 0.6;
-    width: auto;
+    opacity: 1;
+    width: max-content;
     margin-left: 10%;
     margin-right: 5%;
 }
