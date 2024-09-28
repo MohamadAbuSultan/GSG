@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -16,30 +16,30 @@ body{
     margin: 0;
 }
 
-.body{
+.body {
     display: flex;
 }
 
-article{
+article {
     height: 100px;
     width: 700px;
     flex-basis: 65%;
 }
 
-article .big-size{
+article .big-size {
     background-color: #685a5a;
     height: 300px;
     margin: 0 20px;
 }
 
-.main-smallBox{
+.main-smallBox {
     height: 10px;
     width: 50px;
     display: inline-block;
     background-color: #333;
 }
 
-.small-container{
+.small-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@ article .big-size{
 
 .container {
     margin: 20px;
-    width: 120px; 
+    width: 120px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -63,8 +63,8 @@ article .big-size{
 
 .medium-boxes {
     background-color: #ccc;
-    width: 100%; 
-    height: 15px; 
+    width: 100%;
+    height: 15px;
     margin-bottom: 5px;
 }
 
@@ -74,30 +74,31 @@ article .big-size{
 
 .small-box {
     background-color: #ccc;
-    height: 15px; 
+    height: 15px;
 }
 
 .small-box:first-child {
     flex: 3;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .small-box:last-child {
-    flex: 1; 
+    flex: 1;
 }
 
-aside{
+aside {
     float: right;
     flex-basis: 35%;
     margin-top: 10px;
+
 }
 
-.main-arrow{
+.main-arrow {
     float: right;
     margin-right: 20px;
 }
 
-.small-box2{
+.small-box2 {
     height: 10px;
     width: 50px;
     background-color: #840d0d;
@@ -105,9 +106,35 @@ aside{
     margin: 20px;
 }
 
-.big-box{
-    background-color: black;
+.big-box {
     height: 200px;
     width: 200px;
     background-color: #ff0000;
+}
+
+.line {
+    height: 30px;
+    width: 80%;
+    background-color: #ff0000;
+    margin-top: 20px;
+}
+
+.container2 {
+    margin-top: 20px;
+    width: 250px;
+}
+
+.small-boxes2 {
+    width: 70px;
+    height: 70px;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    margin-right: 5px
+}
+
+.small-line{
+    height: 5px;
+    width: 80%;
+    background-color: #ff0000;
+    margin-top: 20px;
 }
