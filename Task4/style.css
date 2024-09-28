@@ -24,6 +24,7 @@ article {
     height: 100px;
     width: 700px;
     flex-basis: 65%;
+    margin-left: 20px;
 }
 
 article .big-size {
@@ -34,25 +35,26 @@ article .big-size {
 
 .main-smallBox {
     height: 10px;
-    width: 50px;
+    width: 60px;
     display: inline-block;
     background-color: #333;
+    margin: 0 0 0 20px;
 }
 
 .small-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .container {
-    margin: 20px;
-    width: 120px;
+    margin: 20px 0 10px 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    flex-basis: 14%;
+    flex-basis: 18%;
 }
 
 .large-box {
@@ -89,8 +91,6 @@ article .big-size {
 aside {
     float: right;
     flex-basis: 35%;
-    margin-top: 10px;
-
 }
 
 .main-arrow {
@@ -103,25 +103,21 @@ aside {
     width: 50px;
     background-color: #840d0d;
     display: inline-block;
-    margin: 20px;
 }
 
 .big-box {
-    height: 200px;
-    width: 200px;
+    height: 300px;
     background-color: #ff0000;
 }
 
 .line {
     height: 30px;
-    width: 80%;
     background-color: #ff0000;
     margin-top: 20px;
 }
 
 .container2 {
     margin-top: 20px;
-    width: 250px;
 }
 
 .small-boxes2 {
@@ -134,7 +130,6 @@ aside {
 
 .small-line{
     height: 5px;
-    width: 80%;
     background-color: #ff0000;
-    margin-top: 20px;
+    margin-top: 30px;
 }
