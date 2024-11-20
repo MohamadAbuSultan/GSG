@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Hunt</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/header.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="navbar">
+        <h2 class="title">Movie <span>Hunt</span></h2>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item">
+            <a href="favorites.html" class="nav-link">Favorites</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Profile</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1>Movies</h1>
+      <ul id="movie-list">
+        <li>
+          Movie 1
+          <button onclick="addToFavorites('Movie 1')">Add to Favorites</button>
+        </li>
+        <li>
+          Movie 2
+          <button onclick="addToFavorites('Movie 2')">Add to Favorites</button>
+        </li>
+      </ul>
+    </main>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>
