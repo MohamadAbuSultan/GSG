@@ -1,3 +1,15 @@
+/*
+  first of all you have to install TypeScript
+  easy way to do that:
+  open terminal "write cmd in the windows search bar"
+  write this command: npm install -g typescript
+  then you have to verify that the installation succeed
+  write this command for that: tsc --version
+  then go to line 10 :) subscribe my channel hahaa
+*/
+// Compile the file using the command: tsc productCalculation.js
+// Then run the compiled JavaScript file: node productCalculation.js
+
 interface Product {
   name: string;
   price: number;
